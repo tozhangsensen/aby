@@ -11,5 +11,5 @@ const homeSlice = createSlice({
 
   }
 })
-
+// 还要导出函数（本质返回的是action对象）给外部dispatch
 export default homeSlice.reducer

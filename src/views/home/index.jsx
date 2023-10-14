@@ -12,7 +12,7 @@ const Home = memo(() => {
       console.log(res)
       setHighScore(res)
     })
-  }, [])
+  }, [])//只渲染一次
 
   return (
     <div>
