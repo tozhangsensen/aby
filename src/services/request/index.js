@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import axios from "axios";
 import { BASE_URL, TIMEOUT } from "./config"
 
@@ -32,5 +31,3 @@ class HYRequest {
 
 export default new HYRequest(BASE_URL, TIMEOUT)
 
-// const hyRequestInstance = new HYRequest(BASE_URL, TIMEOUT);
-// export default hyRequestInstance;
